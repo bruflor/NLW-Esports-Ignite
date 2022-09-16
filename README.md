@@ -12,6 +12,7 @@ Frontend:
 ReactJs
 TypeScript
 TailWind
+Radix Ui
 
 Mobile:
 React Native
