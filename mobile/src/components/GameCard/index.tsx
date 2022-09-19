@@ -14,10 +14,10 @@ export interface GameCardProps {
   id: string;
   name: string;
   ads: string;
-  cover: ImageSourcePropType;
+  cover: any;
 }
 
-interface Props extends TouchableOpacity {
+interface Props {
   data: GameCardProps;
 }
 

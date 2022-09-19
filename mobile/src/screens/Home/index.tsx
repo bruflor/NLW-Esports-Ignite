@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, FlatList } from "react-native";
+import { View, Image, FlatList, Text } from "react-native";
 
 import { styles } from "./styles";
 import logoImg from "../../assets/logo-nlw-esports.png";
@@ -19,9 +19,7 @@ export function Home() {
       <FlatList
         data={GAMES}
         keyExtractor={(item) => item.id}
-        renderItem={({ item }) => {
-          <GameCard data={item} />;
-        }}
+        renderItem={({ item }) => <GameCard data={item} />}
         horizontal
         contentContainerStyle={styles.contentList}
         showsHorizontalScrollIndicator={false}
