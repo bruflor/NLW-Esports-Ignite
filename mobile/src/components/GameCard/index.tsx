@@ -17,7 +17,7 @@ export interface GameCardProps {
   bannerUrl: string;
 }
 
-interface Props {
+interface Props extends TouchableOpacityProps {
   data: GameCardProps;
 }
 
