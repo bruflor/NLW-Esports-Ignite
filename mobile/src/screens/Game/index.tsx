@@ -8,6 +8,7 @@ import { TouchableOpacity, Image, View } from "react-native";
 import { Entypo } from "@expo/vector-icons";
 import { THEME } from "../../theme";
 import logoImg from "../../assets/logo-nlw-esports.png";
+import { DuoCard } from "../../components/DuoCard";
 
 export function Game() {
   const route = useRoute();
@@ -38,6 +39,8 @@ export function Game() {
           resizeMode="cover"
         />
         <Heading title={game.title} subtitle={"Conecte-se e comece a jogar!"} />
+
+        <DuoCard />
       </SafeAreaView>
     </Background>
   );
