@@ -4,7 +4,7 @@ import { Background } from "../../components/Background";
 import { Heading } from "../../components/Heading";
 import { styles } from "./styles";
 import { GameParams } from "../../@types/navigation";
-import { TouchableOpacity, Image, View, FlatList } from "react-native";
+import { TouchableOpacity, Image, View, FlatList, Text } from "react-native";
 import { Entypo } from "@expo/vector-icons";
 import { THEME } from "../../theme";
 import logoImg from "../../assets/logo-nlw-esports.png";
@@ -57,6 +57,11 @@ export function Game() {
           )}
           horizontal
           showsHorizontalScrollIndicator={false}
+          ListEmptyComponent={() => (
+            <Text style={styles.emptyListText}>
+              Não há anúncios publicados ainda
+            </Text>
+          )}
         ></FlatList>
       </SafeAreaView>
     </Background>
