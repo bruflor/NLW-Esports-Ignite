@@ -1,19 +1,20 @@
-# NLW-Esports-Ignite
+# eSports
 
-A multi-platform application developed from the NLW eSports event by Rocketseat.
-The technologies are the following:
+A multi-platform application developed at Next Level Week event by Rocketseat.
+.
+## Technology
 
-Backend e DB:
-NodeJs
-SQLite
-Prisma
+**Backend e DB:**
+* NodeJs
+* SQLite
+* Prisma
 
-Frontend:
-ReactJs
-TypeScript
-TailWind
-Radix Ui
+**Frontend:**
+* ReactJs
+* TypeScript
+* TailWind
+* Radix Ui
 
-Mobile:
-React Native
-TypeScript
+**Mobile:**
+* React Native
+* TypeScript
